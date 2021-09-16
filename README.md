@@ -1,4 +1,4 @@
-# Web-Development
+# Web Development
 The following Code is a Web which consist in the front-end of a virtual Shop. 
 We also implemented the Database which implements the basic back-end of a virtual shop. 
 The development of this Web contains the following technologies: 
