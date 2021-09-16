@@ -1,0 +1,32 @@
+.profile {
+    background-color: #48cae4;
+    border-radius: 18px;
+    box-shadow: 1px 1px 8px 0 grey;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 50px;
+    font-family: arial;
+
+
+}
+
+input[type=text], input[type=password], input[type=email], input[type=number] {
+    width: 100%;
+    padding: 4px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+.aa{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+#layout_profile {
+    text-align:center;
+    margin: auto ;
+    width: 50%;
+}

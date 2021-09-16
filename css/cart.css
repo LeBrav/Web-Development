@@ -1,0 +1,14 @@
+button{
+    background-color: #48cae4;
+    padding: 10px;
+    border-color: #00b4d8;
+}
+
+button:hover{
+    background-color: #00b4d8;
+ }
+.cart-description{
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}

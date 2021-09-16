@@ -1,0 +1,67 @@
+
+#layout{
+    padding: 0px;
+    display: grid;
+
+    grid-column-gap: 5px;
+    grid-row-gap: 0px;
+
+    grid-template-areas:
+        'topmenu topmenu'
+        'mainheader mainheader'
+        'login register';
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=email], input[type=number] {
+    width: 100%;
+    padding: 4px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login{
+    padding-left: 100px;
+    padding-right: 100px;
+    grid-area: login;
+}
+.register{
+    padding-left: 100px;
+    padding-right: 100px;
+    grid-area: register;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.signupbutton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.loginbutton {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.signupbutton:hover{
+    opacity: 0.8;
+}
+
+.loginbutton:hover{
+    opacity: 0.8;
+}

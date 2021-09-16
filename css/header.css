@@ -1,0 +1,138 @@
+html{
+    font-family: Calibri;
+    font-size: 66.7%;
+}
+body{
+    font-size: 1.6em;
+    margin:0;
+    background: #C4FBFF;
+}
+.mainheader{
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+    grid-area: mainheader;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0px 10%;
+    background: white;
+    z-index: 2;
+    padding-top: 20px;
+
+}
+.headerContainer a{
+    text-decoration: none;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #000000;
+    text-align: center;
+
+}
+.headerContainer a:hover{
+    /*background:#71c9ce;*/
+    background:#48cae4;
+    /*e3fdfd;*/
+
+}
+.headerContainer , .cartmenu ul{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0em;
+    margin-bottom: 0;
+    background: white/*#a6e3e9;*/;
+
+
+}
+
+.lineasep{
+    position:sticky;
+    position: -webkit-sticky;
+    top: 98.06px;
+    padding:0.2em;
+    /*background:#71c9ce;*/
+    background:#00b4d8;
+    color:#000000;
+    display: flex;
+    z-index: 2;
+
+}
+.topmenu{
+    grid-area: topmenu;
+    padding:0.1em;
+    /*background:#71c9ce;*/
+    background:#48cae4;
+    color:#000000;
+
+}
+.topmenu img{
+    max-width: 1%;
+    padding-left: 10px;
+}
+.topmenu a{
+    text-decoration: none;
+}
+
+.logo{
+    grid-area: logo;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.cartmenu li:first-child button{
+    border-radius: 30px 0 0 30px;
+
+}
+.cartmenu li:last-child button{
+    border-radius: 0 30px 30px 0;
+    border-right: 0;
+
+}
+.cartmenu button{
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    color: #000000;
+    text-align: center;
+
+    border:none;
+    background-color: #48cae4;
+}
+.cartmenu button:hover{
+    /*background-color: #1fab89;*/
+    background-color: #00b4d8;
+
+}
+.dropdownlink {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    transition: all 0.4s ease-out;
+}
+.account-options {
+    display: none;
+}
+.account-displayed{
+    display:block;
+
+
+}
+.account-displayed ul {
+    display:flex;
+    flex-flow: column;
+    padding: 16px;
+    transition: 1s;
+
+ }
+.cart-resume{
+    padding: 20px;
+    background-color: #48cae4;
+}
+
